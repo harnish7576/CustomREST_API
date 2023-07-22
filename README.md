@@ -46,13 +46,28 @@ This is a simple REST API built using Node.js and Express, implementing CRUD (Cr
 
 All responses are in JSON format.
 
+## Using Postman for Testing
+
+1. Open Postman on your computer.
+
+2. Use the provided examples or refer to the API endpoints section to construct requests.
+
+3. Set the request URL to the appropriate endpoint, e.g., `http://localhost:8000/users`.
+
+4. Choose the HTTP method (GET, POST, PATCH, DELETE).
+
+5. If applicable, add a JSON request body for POST and PATCH.
+
+6. Click "Send" to execute the request.
+
+7. View the response with status code and JSON data.
+
+8. Test all CRUD operations using Postman.
+
 ## Error Handling
 
 The API handles basic error scenarios and provides appropriate error messages and status codes.
 
-## Examples
-
-You can use tools like Postman or `curl` to interact with the API and test the endpoints.
 
 ## Conclusion
 
